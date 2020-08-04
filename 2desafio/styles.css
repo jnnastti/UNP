@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #18A0FB;
+}
+
+.logo {
+    position: absolute;
+    font-family: 'Comfortaa', cursive;
+    font-size: 28.44px;
+    margin-left: 115.37;
+    left: 0;
+    margin-top: 0;
+    letter-spacing: -0.015em;
+}
+
+ul {
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    right: 0;
+    margin-right: 50;
+}
+
+ul li {
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #18A0FB;
+}
+
+ul li a {
+    display: inline-block;
+    margin-right: 31;
+}
+
+ul .button a {
+    margin-right: 0;
+    color: #ffffff;
+    background: #18A0FB;
+    border-radius: 6px;
+    padding: 10 35;
+    transition: 0.3s;
+}
+
+.background {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    max-height: 1250px;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('wallpaper.jpg');
+    background-size: 100%;
+    margin: 0;
+    padding-top: 30;
+}
+
+.title {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 80px;
+}
+
+.title h1 {
+    font-size: 56px;
+    margin-bottom: 15px;
+}
+
+.title h2 {
+    font-size: 48px;
+    margin-bottom: 35px;
+}
+
+.title a {
+    background: #18A0FB;
+    border-radius: 6px;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    padding: 10 35;
+    transition: 0.3s;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.topico {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: #ABABAB;
+    height: 203px;
+    width: 820px;
+    font-size: 14px;
+    box-shadow: 0 10px 50px rgba(0,0,0,0.15);
+    margin-top: -101px;
+}
+
+.topico .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20 40;
+    justify-content: space-around;
+}
+
+.topico hr {
+    height: 80%;
+    margin-top: 2.3%;
+}
+
+.topico h4 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.topico a {
+    color: #18A0FB;
+}
+
+.resto {
+    height: 200px;
+    text-align: center;
+}
+
+.resto p {
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+a {
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #1070AF;
+}
+
+.title a:hover {
+    background: #1070AF;
+    color: #ffffff;
+}
+
+.button a:hover {
+    color: #ffffff;
+    background: #1070AF;
+}
